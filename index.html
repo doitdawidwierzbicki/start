@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description"
+    content="Portfolio front-end developera — nowoczesne UI, szybkie RWD, portfolio i kontakt. Freelancer: tworzenie stron, aplikacji webowych, optymalizacja." />
+  <title>doIT Dawid Wierzbicki</title>
+  <meta name="keywords" content="front-end, freelancer, web developer, JavaScript, HTML, CSS, portfolio" />
+  <link rel="icon" href="./src/img/favicon.png" type="image/png">
+  <link rel="stylesheet" href="./src/css/style.css" />
+</head>
+
+<body>
+  <div class="site">
+    <header class="nav">
+      <div class="nav-inner">
+        <div class="brand">
+          <div class="logo" aria-hidden>doIT</div>
+          <div>
+            <div style="font-weight:700">Dawid Wierzbicki</div>
+            <div class="small">Front-End Developer</div>
+          </div>
+        </div>
+        <nav aria-label="Główna nawigacja">
+          <a href="#about">Usługi</a>
+          <a href="#contact">Kontakt</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-label="Hero">
+        <div class="hero-right">
+          <div class="eyebrow">doIT Dawid Wierzbicki</div>
+          <h1>Buduję szybkie i&nbsp;estetyczne interfejsy, które&nbsp;sprzedają</h1>
+          <p class="lead">Specjalizuję się w&nbsp;tworzeniu stron, aplikacji SPA i&nbsp;systemów interaktywnych. Dostarczam czysty
+            kod, optymalizację wydajności i&nbsp;dobre UX.</p>
+          <div class="cta-row">
+            <button class="btn" id="contact-cta">Zamów projekt</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="reveal">
+        <h2>Usługi</h2>
+        <div class="grid" style="margin-top:16px">
+          <div class="card">
+            <div class="icon-circle">💻</div>
+            <h3>Strony WWW</h3>
+            <p class="small">Responsywne, zoptymalizowane i konwertujące strony WWW oraz landing page'e</p>
+          </div>
+          <div class="card">
+            <div class="icon-circle">⚙️</div>
+            <h3>Interaktywne aplikacje</h3>
+            <p class="small">SPA, PWA i interaktywne komponenty z użyciem nowoczesnych technologii w tym: Javascript
+              (React, Vue)</p>
+          </div>
+          <div class="card">
+            <div class="icon-circle">🚀</div>
+            <h3>Wydajność & SEO</h3>
+            <p class="small">Audyt, optymalizacja i poprawa Core Web Vitals.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="reveal contact">
+        <div id="contact-wrapper">
+            <h2>Kontakt</h2>
+            <p class="contact-copy">Masz projekt, pomysł lub chcesz o coś zapytać? Napisz do mnie — chętnie pomogę i
+            odpowiem na wszystkie pytania.</p>
+            <div class="contact-links">
+            <a href="mailto:daw.wierzbicki@gmail.com" class="contact-item">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="5" width="18" height="14" rx="2" ry="2"></rect>
+                <polyline points="3 7 12 13 21 7"></polyline>
+                </svg>
+                daw.wierzbicki@gmail.com
+            </a>
+            <a href="https://pl.linkedin.com/in/dawid-wierzbicki" target="_blank" class="contact-item">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+                LinkedIn
+            </a>
+            </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer style="text-align:center;padding:40px 0;color:rgba(230,238,248,0.6)">© 2025 doIT Dawid Wierzbicki</footer>
+  </div>
+  <script src="./src/js/script.js"></script>
+</body>
+
+</html>
